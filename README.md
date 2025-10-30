@@ -2,6 +2,10 @@
 
 Experimental fork of the Better Auth CLI that works with Cloudflare Workers.
 
+```
+bunx cf-better-auth-cli <command>
+```
+
 ## New flags
 
 - `-cfe, --cf-env <environment>` the target cloudflare environment (define in you wrangler config), default to root one ('').
